@@ -17,5 +17,8 @@ const TodoItem = (props) => {
         </li>
     );
 }
-
+TodoItem.propTypes = {
+   toggle: React.PropTypes.func.isRequired,
+   todoObject: React.PropTypes.object.isRequired
+}
 export default TodoItem;

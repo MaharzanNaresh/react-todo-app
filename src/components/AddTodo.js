@@ -28,4 +28,9 @@ class AddTodo extends React.PureComponent {
     }
 }
 
+
+AddTodo.propTypes = {
+   addTodo: React.PropTypes.func.isRequired
+}
+
 export  default AddTodo;

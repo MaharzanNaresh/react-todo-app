@@ -30,4 +30,10 @@ const Menu = (props) => {
         </ul>
     );
 }
+
+Menu.propTypes = {
+   todos: React.PropTypes.array.isRequired,
+   filterTodoItems: React.PropTypes.func.isRequired,
+   activeFilter: React.PropTypes.string.isRequired
+}
 export default Menu;

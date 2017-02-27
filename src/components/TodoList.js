@@ -26,4 +26,9 @@ class TodoList extends React.Component {
         </ul>
     }
 }
+
+TodoList.propTypes = {
+   toggleTodo: React.PropTypes.func.isRequired,
+   todoItems: React.PropTypes.array.isRequired
+}
 export default TodoList;
