@@ -1,0 +1,5 @@
+@import "main.css";
+body {
+  background: rgba(167, 167, 167, 0.25);
+  font-family: "Ubuntu Mono";
+}
